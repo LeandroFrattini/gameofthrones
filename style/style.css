@@ -12,12 +12,11 @@ main {
   border: 2px solid #EBCFB2;
   background-color: #212529;
   color: white; }
-
-.card img {
-  margin-left: 40px;
-  margin-top: 25px;
-  height: 650px;
-  width: 450px; }
+  .card img {
+    margin-left: 40px;
+    margin-top: 25px;
+    height: 650px;
+    width: 450px; }
 
 .btn {
   background-color: #424B54;

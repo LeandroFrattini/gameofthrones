@@ -1,24 +1,29 @@
+$primary-color:#212529;
+$secondary-color:#EBCFB2;
+
 *{
-    margin:0px;
-    padding: 0px;  
+    margin: 0px;
+    padding: 0px;
 }
+
 main{
     height: 100%;
     width: 100%;
-    background-color: #212529;
+    background-color: $primary-color;
 }
 .card{
     margin-top:60px;
-    border: 2px solid #EBCFB2;
-    background-color: #212529;
+    border: 2px solid $secondary-color;
+    background-color: $primary-color;
     color:white;
+    img{
+        margin-left: 40px;
+        margin-top: 25px;
+        height: 650px;
+        width: 450px;
+    }
 }
-.card img{
-    margin-left: 40px;
-    margin-top: 25px;
-    height: 650px;
-    width: 450px;
-}
+
 
 .btn{
     background-color: #424B54;
