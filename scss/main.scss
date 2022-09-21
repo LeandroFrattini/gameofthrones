@@ -1,5 +1,10 @@
+@import'footer.scss';
+@import'header.scss';
+
+
 $primary-color:#212529;
 $secondary-color:#EBCFB2;
+
 
 *{
     margin: 0px;
@@ -28,3 +33,5 @@ main{
     background-color: #424B54;
     color: #EBCFB2;
 }
+
+
