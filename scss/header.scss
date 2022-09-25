@@ -1,0 +1,31 @@
+$primary-color:#212529;
+$secondary-color:#EBCFB2;
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: $primary-color;
+}
+
+.titulo-portada{
+    padding: 20px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-style: italic;
+    text-align: center;
+        h1{
+            margin-top: 30px;
+            text-align: center;
+            color:$secondary-color
+        }
+        p{
+            margin: 50px 30px
+        }
+        h2{
+            padding: 20px;
+            text-align: center;
+        }
+        img{
+            align-items: center;
+        }
+    }
