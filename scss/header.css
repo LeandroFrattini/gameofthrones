@@ -27,9 +27,48 @@ header {
   align-items: center;
 }
 
+.ultimo {
+  background-color: #212529;
+  text-align: center;
+  align-items: center;
+}
+
+.card-libro {
+  width: 529px;
+  height: 550px;
+  margin-left: 528px;
+  padding: 500px;
+  border: 2px solid #EBCFB2;
+  padding: 10px;
+  justify-content: center;
+  background-color: #212529;
+  align-items: flex-end;
+  color: #EBCFB2;
+}
+.card-libro .img {
+  margin: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-libro p {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .titulo-portada img {
     width: 290px;
     height: auto;
+  }
+  .ultimo {
+    width: auto;
+  }
+  .ultimo .card-libro {
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+  }
+  .ultimo .img {
+    margin: 0px;
   }
 }/*# sourceMappingURL=header.css.map */

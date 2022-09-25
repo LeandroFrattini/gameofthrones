@@ -36,8 +36,11 @@ main{
         color: $secondary-color;
 }
 @media only screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
     .card{
-        margin-left:10px;
+        margin-left:6px;
         .card-img-top{
     object-fit: contain;
     margin-left: 20px;

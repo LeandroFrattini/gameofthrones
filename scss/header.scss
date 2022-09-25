@@ -30,6 +30,32 @@ header{
         }
     }
 
+.ultimo{
+    background-color: $primary-color;
+    text-align: center;
+    align-items: center;
+}
+.card-libro{
+    width: 529px;
+    height: 550px;
+    margin-left: 528px;
+    padding: 500px;
+    border: 2px solid $secondary-color;
+    padding: 10px;
+    justify-content: center;
+    background-color: $primary-color;
+    align-items: flex-end;
+    color: $secondary-color;
+    .img{ 
+        margin:500px;     
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    p{
+        color:white;
+    }
+}
     @media only screen and (max-width: 600px){
         .titulo-portada{
             img{
@@ -37,4 +63,15 @@ header{
                 height: auto;;
             }
         }
+        .ultimo{
+            width: auto;
+            .card-libro{
+            width: auto;
+            height: auto;
+            margin-left: 0px;
+        }
+        .img{
+            margin: 0px;
+        }
+    }
     }
