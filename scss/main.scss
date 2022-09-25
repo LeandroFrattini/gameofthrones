@@ -17,21 +17,46 @@ main{
     background-color: $primary-color;
 }
 .card{
+    display:flex;
+    flex-wrap: wrap;;
     margin-top:60px;
     border: 2px solid $secondary-color;
     background-color: $primary-color;
     color:white;
     img{
+        object-fit: contain;
         margin-left: 40px;
         margin-top: 25px;
         height: 650px;
         width: 450px;
     }
+    
 }
-
+.card-title{
+        color: $secondary-color;
+}
+@media only screen and (max-width: 600px){
+    .card{
+        margin-left:10px;
+        .card-img-top{
+    object-fit: contain;
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 350px;
+    width: 300px;
+        }
+    }
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .btn{
     background-color: #424B54;
     color: #EBCFB2;
+    
 }
+
 
 

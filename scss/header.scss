@@ -29,3 +29,12 @@ header{
             align-items: center;
         }
     }
+
+    @media only screen and (max-width: 600px){
+        .titulo-portada{
+            img{
+                width: 290px;
+                height: auto;;
+            }
+        }
+    }
