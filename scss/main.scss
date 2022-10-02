@@ -99,8 +99,9 @@ main{
     border: $secondary-color solid 2px;
     width: 250px;
     height: 310px;
-    color:$secondary-color
-    
+    color:$secondary-color;
+    &hover{
+        transform:scaleX(12);
 }
 h2{
     padding: 5px;
@@ -110,8 +111,6 @@ img{
     width: 230px;
     height: 230px;
     object-fit: cover;
-    &hover{
-        transform:scale(1);
     }
 }
 

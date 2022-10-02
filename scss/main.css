@@ -101,20 +101,18 @@ main {
   height: 310px;
   color: #EBCFB2;
 }
-
-h2 {
+.casahover {
+  transform: scaleX(12);
+}
+.casa h2 {
   padding: 5px;
   font-size: 25px;
 }
-
-img {
+.casa img {
   width: 230px;
   height: 230px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-imghover {
-  transform: scale(1);
 }
 
 @media only screen and (max-width: 600px) {
