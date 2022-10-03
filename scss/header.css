@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 header {
   height: 100px;
   width: 100%;
@@ -5,6 +6,7 @@ header {
 }
 
 .titulo-portada {
+  font-family: "Aclonica", sans-serif;
   padding: 20px;
   background-color: #212529;
   color: #EBCFB2;
@@ -17,6 +19,7 @@ header {
   color: #EBCFB2;
 }
 .titulo-portada p {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 50px 30px;
 }
 .titulo-portada h2 {

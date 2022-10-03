@@ -97,6 +97,7 @@ main {
   background-color: #212529;
   margin: 30px;
   border: #EBCFB2 solid 2px;
+  border-radius: 20px;
   width: 250px;
   height: 310px;
   color: #EBCFB2;
@@ -134,13 +135,14 @@ main {
   width: 100%;
   background-color: #212529;
   border: #EBCFB2 2px solid;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 50px;
 }
 
 .escudos-casas {
@@ -148,6 +150,7 @@ main {
   height: 520px;
   background-color: #212529;
   border: #EBCFB2 2px solid;
+  border-radius: 40px;
   justify-content: center;
   text-align: center;
   padding: 30px;
@@ -162,4 +165,40 @@ main {
 .escudos-casas img {
   width: 250px;
   padding: 10px;
+}
+
+.escudos-libros {
+  width: 300px;
+  height: 520px;
+  background-color: #212529;
+  border: #EBCFB2 2px solid;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px #200116;
+}
+.escudos-libros h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #EBCFB2;
+}
+.escudos-libros img {
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.escudos-libros .btnhover {
+  background-color: aquarium;
+}
+
+.btn {
+  font-family: "Aclonica", sans-serif;
+  color: #EBCFB2;
+  background-color: #2D0653;
+}
+.btn:hover {
+  background-color: #EBCFB2 !important;
 }/*# sourceMappingURL=main.css.map */
