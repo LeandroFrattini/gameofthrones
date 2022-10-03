@@ -125,6 +125,41 @@ main {
 }
 .separacion {
   width: 100%;
+  height: 0px;
   height: 2px;
   background-color: #EBCFB2;
+}
+
+.escudos {
+  width: 100%;
+  background-color: #212529;
+  border: #EBCFB2 2px solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.escudos-casas {
+  width: 300px;
+  height: 520px;
+  background-color: #212529;
+  border: #EBCFB2 2px solid;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px #200116;
+}
+.escudos-casas h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #EBCFB2;
+}
+.escudos-casas img {
+  width: 250px;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
